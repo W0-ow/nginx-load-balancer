@@ -20,7 +20,7 @@ services:
      image: myserver1
      build: ./servers/server1
      ports:
-       - "1111:2323"
+       - 1111:2323
      restart: always
      networks:
       - mynet
@@ -30,7 +30,7 @@ services:
      image: myserver2
      build: ./servers/server2
      ports:
-       - "2222:2323"
+       - 2222:2323
      restart: always
      networks:
       - mynet
@@ -40,7 +40,7 @@ services:
      image: myserver3
      build: ./servers/server3
      ports:
-       - "3333:2323"
+       - 3333:2323
      restart: always
      networks:
       - mynet
