@@ -14,25 +14,25 @@ Load balancer with NGINX using 3 simple servers built with Node and Express.
 Clone the project
 
 ```bash
-  git clone https://github.com/W0-ow/nginx-load-balancer.git
+git clone https://github.com/W0-ow/nginx-load-balancer.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd nginx-load-balancer
+cd nginx-load-balancer
 ```
 
 Build images and start containers
 
 ```bash
-  docker compose up -d
+docker compose up -d
 ```
 
 See active containers
 
 ```bash
-  docker ps -a
+docker ps -a
 ```
 
 Local URL
