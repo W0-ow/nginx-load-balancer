@@ -1,5 +1,5 @@
 
-# Simple Load Balancer With NGINX
+# Simple Load Balancer
 
 Load balancer with NGINX using 3 simple servers built with Node and Express.
 
