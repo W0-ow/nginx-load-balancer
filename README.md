@@ -20,7 +20,7 @@ git clone https://github.com/W0-ow/nginx-load-balancer.git
 Go to the project directory
 
 ```bash
-cd nginx-load-balancer
+cd /nginx-load-balancer
 ```
 
 Build images and start containers
